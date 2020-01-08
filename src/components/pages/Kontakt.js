@@ -14,9 +14,13 @@ const ContactDiv = styled.div`
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 38px;
   padding: 30px;
   transition: 0.3s ease;
+  @media (max-height: 800px) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 `;
 const StyledP = styled.p`
   color: white;
@@ -24,6 +28,10 @@ const StyledP = styled.p`
   font-size: 15px;
   @media (max-width: 768px) {
     font-size: 18px;
+  }
+  @media (max-height: 800px) {
+    font-size: 12px;
+    padding: 10px;
   }
 `;
 
