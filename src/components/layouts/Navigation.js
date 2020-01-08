@@ -12,26 +12,34 @@ const list = [
 ];
 const LogoDown = styled.p`
   font-size: 20px;
+  @media (max-height: 800px) {
+    font-size: 9px;
+  }
 `;
 const LogoAll = styled.div`
   background-image: url(${LogoImg});
   background-size: cover;
-
+  width: 100vw;
   height: 12vh;
+  overflow: hidden;
 `;
 const ColorLetter = styled.span`
   color: #ec7801;
 `;
 
 const Logo = styled.div`
-  width: 72vw;
+  width: 68vw;
   height: 12vh;
   position: fixed;
   top: 0;
   padding: 20px;
   color: white;
-  font-size: 40px;
+  font-size: 3.5vh;
   background-color: rgba(0, 0, 0, 0.7);
+  @media (max-height: 800px) {
+    padding-top: 10px;
+    font-size: 14px;
+  }
 `;
 
 const StyledLi = styled.li`
@@ -40,7 +48,7 @@ const StyledLi = styled.li`
   background-color: rgba(0, 0, 0, 0.7);
   padding-top: 5vh;
   font-size: 1vw;
-  width: 7vw;
+  width: 8vw;
   list-style-type: none;
 
   a {

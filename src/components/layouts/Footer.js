@@ -30,6 +30,9 @@ const StyledFooter = styled.p`
   @media (max-width: 768px) {
     font-size: 8px;
   }
+  @media (max-width: 320px) {
+    font-size: 5px;
+  }
 `;
 
 class Footer extends Component {

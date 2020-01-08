@@ -5,7 +5,7 @@ import Drut from "../../images/drut1.png";
 
 const Img = styled.img`
   box-shadow: 0 0 15px 5px;
-  width: 300px;
+  width: 20vw;
 `;
 const Container = styled.div`
   padding-top: 40px;
@@ -19,11 +19,18 @@ const Container = styled.div`
 
 const StyledH2 = styled.h2`
   font-size: 2vh;
-  padding-left: 30vw;
-  padding-right: 30vw;
-  margin-bottom: 6vh;
+  padding-left: 40vw;
+  padding-right: 40vw;
   text-align: center;
   color: #edf0f1;
+  @media (max-width: 768px) {
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+  @media (max-height: 800px) {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 `;
 
 class Oferta extends Component {

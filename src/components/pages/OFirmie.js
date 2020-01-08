@@ -27,7 +27,13 @@ const StyledH2 = styled.h2`
 
   @media (max-width: 768px) {
     font-size: 1em;
-    margin: 3vw 12vw 0 12vw;
+    margin: 3vw 8vw 0 8vw;
+    padding-bottom: 6vh;
+  }
+  @media (max-height: 800px) {
+    padding-left: 0%;
+    padding-right: 0%;
+    font-size: 15px;
   }
 `;
 
@@ -59,13 +65,13 @@ const OFirmie = () => {
       </StyledTittle>
       <StyledH2>
         Firma <StyledSpan>LUKMET</StyledSpan> została założona w 2013 roku.
-        Specializuje się w produkcji wyrobów z drutu. Współparcuje z wieloma
-        firamamy z całej Polski. Firmę cechuję techniczna dokładność
-        przekładająca się na wysoką jakość wykonywanych produktów.{" "}
-        <StyledSpan>LUKMET</StyledSpan> za cel obrał sobie spełnianie oczekiwań
-        nawet najbardziej wymagających klientów i dostarczanie im produktów
-        najwyżej jakości w dobrej cenie. Firma posiada Certyfikaty wyrabianych
-        przez siebie produktów.
+        Specializuje się w produkcji prętów do podwieszania profili konstrukcji
+        nośnych sufitów. Współparcuje z wieloma firamamy z całej Polski. Firmę
+        cechuję techniczna dokładność przekładająca się na wysoką jakość
+        wykonywanych produktów. <StyledSpan>LUKMET</StyledSpan> za cel obrał
+        sobie spełnianie oczekiwań nawet najbardziej wymagających klientów i
+        dostarczanie im produktów najwyżej jakości w dobrej cenie. Firma posiada
+        Certyfikaty wyrabianych przez siebie produktów.
         <StyledP>Zapraszamy do zapoznania się z oferta firmy.</StyledP>
       </StyledH2>
     </>

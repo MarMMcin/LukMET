@@ -5,7 +5,7 @@ import StyledH1 from "../StylesComponents";
 import Certyfikat from "../../images/certyfikat.jpg";
 
 const Photo = styled.img`
-  width: 300px;
+  width: 16vw;
   margin-top: 20px;
   margin-bottom: 20px;
   box-shadow: 0 0 15px 5px;
@@ -31,6 +31,10 @@ const Container = styled.div`
   @media (max-width: 768px) {
     padding-top: 5%;
     padding-bottom: 10%;
+  }
+  @media (max-height: 800px) {
+    padding-top: 0;
+    padding-bottom: 0%;
   }
 `;
 
