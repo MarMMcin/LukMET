@@ -18,8 +18,9 @@ const Container = styled.div`
 `;
 
 const StyledH2 = styled.h2`
-  font-size: 2.3vh;
-  margin: 3vw 20vw 0 20vw;
+  font-size: 2vh;
+  padding-left: 30vw;
+  padding-right: 30vw;
   text-align: center;
   color: #edf0f1;
 `;
@@ -38,7 +39,8 @@ class Oferta extends Component {
         </Container>
         <StyledH2>
           Nasza oferta jest indywidualna dla każdego kilenta, bardzo prosimy o
-          kontakt w celu ustalenia szczegółów
+          kontakt w celu ustalenia szczegółów. Możliwy jest także dowóz wyrobów
+          w wyznaczone miejsce.
         </StyledH2>
       </>
     );

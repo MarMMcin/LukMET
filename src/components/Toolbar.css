@@ -8,7 +8,9 @@
     left: 0;
     width: 100%;
     background-image: url("../images/prety.jpg");
-    height: 55px;
+    height: 45px;
+
+    padding-bottom: 1vh;
   }
   .toolbar::after {
     content: "";

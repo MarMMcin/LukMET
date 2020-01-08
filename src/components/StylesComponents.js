@@ -8,9 +8,10 @@ const StyledH1 = styled.h1`
   flex-wrap: nowrap;
   justify-content: center;
   font-size: 5vh;
-  padding: 4vh 4vw 0 4vw;
+  padding: 3vh 3vw 0 3vw;
 
   color: white;
+
   @media (max-width: 768px) {
     padding-top: 15%;
   }

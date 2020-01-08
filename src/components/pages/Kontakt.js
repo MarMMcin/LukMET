@@ -15,7 +15,7 @@ const ContactDiv = styled.div`
   justify-content: center;
   align-items: center;
   font-size: 40px;
-  padding: 40px;
+  padding: 30px;
   transition: 0.3s ease;
 `;
 const StyledP = styled.p`
@@ -23,7 +23,7 @@ const StyledP = styled.p`
   text-align: center;
   font-size: 15px;
   @media (max-width: 768px) {
-    font-size: 20px;
+    font-size: 18px;
   }
 `;
 
