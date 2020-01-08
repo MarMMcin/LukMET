@@ -21,6 +21,7 @@ const StyledH2 = styled.h2`
   font-size: 2vh;
   padding-left: 30vw;
   padding-right: 30vw;
+  margin-bottom: 6vh;
   text-align: center;
   color: #edf0f1;
 `;
