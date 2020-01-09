@@ -8,7 +8,7 @@ const Photo = styled.img`
   width: 16vw;
   margin-top: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 0 15px 5px;
+  box-shadow: 0 10px 6px -6px #777;
   @media (max-width: 768px) {
     width: 200px;
   }

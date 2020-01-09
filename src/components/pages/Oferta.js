@@ -4,8 +4,15 @@ import StyledH1 from "../StylesComponents";
 import Drut from "../../images/drut1.png";
 
 const Img = styled.img`
-  box-shadow: 0 0 15px 5px;
-  width: 20vw;
+  width: 25vw;
+  box-shadow: 0 10px 6px -6px #777;
+  border-radius: 2px;
+  @media (max-height: 800px) {
+    width: 20vw;
+  }
+  @media (max-width: 768px) {
+    width: 220px;
+  }
 `;
 const Container = styled.div`
   padding-top: 40px;
@@ -19,8 +26,8 @@ const Container = styled.div`
 
 const StyledH2 = styled.h2`
   font-size: 2vh;
-  padding-left: 40vw;
-  padding-right: 40vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
   text-align: center;
   color: #edf0f1;
   @media (max-width: 768px) {
@@ -46,9 +53,9 @@ class Oferta extends Component {
           <Img src={Drut} alt="" />
         </Container>
         <StyledH2>
-          Nasza oferta jest indywidualna dla każdego kilenta, bardzo prosimy o
-          kontakt w celu ustalenia szczegółów. Możliwy jest także dowóz wyrobów
-          w wyznaczone miejsce.
+          Nasza oferta jest indywidualna. Bardzo prosimy o kontakt w celu
+          ustalenia szczegółów. Możliwy jest także dowóz wyrobów w wyznaczone
+          miejsce.
         </StyledH2>
       </>
     );

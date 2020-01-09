@@ -59,7 +59,6 @@ const OFirmie = () => {
     <>
       <StyledTittle>
         <StyledH1>
-          ŁUKASZ DRELISZEK&nbsp;
           <StyledSpan>LUKMET</StyledSpan>{" "}
         </StyledH1>
       </StyledTittle>

@@ -10,12 +10,6 @@ const list = [
   { name: "Oferta", path: "/oferta" },
   { name: "Kontakt", path: "/kontakt" }
 ];
-const LogoDown = styled.p`
-  font-size: 20px;
-  @media (max-height: 800px) {
-    font-size: 9px;
-  }
-`;
 const LogoAll = styled.div`
   background-image: url(${LogoImg});
   background-size: cover;
@@ -28,13 +22,16 @@ const ColorLetter = styled.span`
 `;
 
 const Logo = styled.div`
+  display: flex;
+  justify-content: flex-start
+  align-items: center;
   width: 68vw;
   height: 12vh;
   position: fixed;
   top: 0;
   padding: 20px;
   color: white;
-  font-size: 3.5vh;
+  font-size: 4vh;
   background-color: rgba(0, 0, 0, 0.7);
   @media (max-height: 800px) {
     padding-top: 10px;
@@ -88,10 +85,6 @@ const Navigation = () => {
 
         <Logo>
           LUK<ColorLetter>MET</ColorLetter>{" "}
-          <LogoDown>
-            <ColorLetter>Ł</ColorLetter>ukasz <ColorLetter>D</ColorLetter>
-            reliszek
-          </LogoDown>
         </Logo>
       </LogoAll>
     </>

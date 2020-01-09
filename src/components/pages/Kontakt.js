@@ -25,7 +25,8 @@ const ContactDiv = styled.div`
 const StyledP = styled.p`
   color: white;
   text-align: center;
-  font-size: 15px;
+  font-weight: 100;
+  font-size: 1vw;
   @media (max-width: 768px) {
     font-size: 18px;
   }
@@ -36,6 +37,7 @@ const StyledP = styled.p`
 `;
 
 const IconDiv = styled.div`
+  font-size: 4vw;
   color: #ec7801;
   transition: 0.2s ease;
   cursor: pointer;

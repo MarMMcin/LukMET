@@ -34,7 +34,7 @@
 }
 
 .side-drawer a:hover {
-  color: rgba(249, 212, 125, 1);
+  color: #ec7801;
 }
 
 @media (min-width: 769px) {
