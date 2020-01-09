@@ -51,7 +51,7 @@ const StyledSpan = styled.span`
 
 const StyledP = styled.p`
   text-align: center;
-  font-weight: 700;
+  font-weight: 600;
   padding-top: 2vh;
 `;
 const OFirmie = () => {
@@ -65,13 +65,13 @@ const OFirmie = () => {
       <StyledH2>
         Firma <StyledSpan>LUKMET</StyledSpan> została założona w 2013 roku.
         Specializuje się w produkcji prętów do podwieszania profili konstrukcji
-        nośnych sufitów. Współparcuje z wieloma firamamy z całej Polski. Firmę
+        nośnych sufitów. Współpracuje z wieloma firmami z całej Polski. Firmę
         cechuję techniczna dokładność przekładająca się na wysoką jakość
         wykonywanych produktów. <StyledSpan>LUKMET</StyledSpan> za cel obrał
         sobie spełnianie oczekiwań nawet najbardziej wymagających klientów i
         dostarczanie im produktów najwyżej jakości w dobrej cenie. Firma posiada
         Certyfikaty wyrabianych przez siebie produktów.
-        <StyledP>Zapraszamy do zapoznania się z oferta firmy.</StyledP>
+        <StyledP>Zapraszamy do zapoznania się z ofertą firmy.</StyledP>
       </StyledH2>
     </>
   );

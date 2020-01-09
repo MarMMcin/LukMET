@@ -40,7 +40,7 @@ class Footer extends Component {
     return (
       <Container>
         <StyledFooter>
-          © 2020 Łukasz Dreliszek | by: MM{" "}
+          © 2020 LUKMET | by: MM{" "}
           <StyledA
             target="_blank"
             rel="noopener noreferrer"
