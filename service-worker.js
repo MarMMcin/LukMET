@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LukMET/./precache-manifest.10e214a2517ead5e53ccdbae97f71775.js"
+  "/LukMET/./precache-manifest.bdf6b1867314238b6f5d185d682ed064.js"
 );
 
 self.addEventListener('message', (event) => {
